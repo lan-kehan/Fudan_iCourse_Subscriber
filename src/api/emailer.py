@@ -273,7 +273,7 @@ def _resolve_src(url: str, img_data: bytes | None,
 
 
 class Emailer:
-    """Send course summary emails via QQ SMTP SSL."""
+    """Send course summary emails via Gmail SMTP SSL."""
 
     def __init__(self):
         self.host = config.SMTP_HOST

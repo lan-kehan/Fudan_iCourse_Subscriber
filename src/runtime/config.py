@@ -112,11 +112,11 @@ def resolve_model_providers() -> list[dict]:
 DASHSCOPE_API_KEY = os.environ.get("DASHSCOPE_API_KEY", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-# QQ SMTP
+# Gmail SMTP
 SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "")
 SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
 RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL", "")
-SMTP_HOST = "smtp.qq.com"
+SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
 
 # Database & Storage
